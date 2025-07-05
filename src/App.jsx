@@ -1,5 +1,6 @@
 import "./App.css";
 import UseEffect from "./Hooks/UseEffect";
+import UseLayoutEffect from "./Hooks/useLayoutEffect";
 import UseState from "./Hooks/UseState";
 
 function App() {
@@ -7,9 +8,12 @@ function App() {
     <>
       <h1>This is UseState</h1>
       <UseState />
-      <hr/>
+      <hr />
       <h1>This is useEffect</h1>
       <UseEffect />
+      <hr />
+      <h1>This is useLayoutEffect vs useEffect</h1>
+      <UseLayoutEffect />
     </>
   );
 }
